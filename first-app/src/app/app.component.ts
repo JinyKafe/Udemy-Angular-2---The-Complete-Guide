@@ -5,6 +5,7 @@ import {Component} from '@angular/core';
   // templateUrl: './app.component.html', // each component must have exactly one html template
   template: `
       <h1>{{title}}</h1> 
+      <fa-other></fa-other>
   `, // alternative to templateUrl
   // styleUrls: ['./app.component.css'] // and may have (must not) multiple css
   styles: [`
