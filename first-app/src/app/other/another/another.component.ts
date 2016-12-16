@@ -1,13 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-another',
-  templateUrl: './another.component.html',
-  styleUrls: ['./another.component.css']
+  selector: 'fa-another',
+  template: `
+    <article> 
+        <ng-content> </ng-content> 
+    </article>`,
+  styles: [`
+      article {
+        border: 1px solid black;
+      }
+  `]
 })
 export class AnotherComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
